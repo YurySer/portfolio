@@ -62,33 +62,41 @@ const Contact = () => {
           animate={isInView ? "animate" : "initial"}
         >
           <motion.h1 variants={listVariant} className="cTitle">
-            Let's keep in touch
+            Свяжитесь со мной
           </motion.h1>
           <motion.div variants={listVariant} className="formItem">
-            <label>Name</label>
-            <input type="text" name="user_username" placeholder="John Doe" />
+            <label>Имя</label>
+            <input type="text" name="from_name" placeholder="Фамилия Имя" />
           </motion.div>
           <motion.div variants={listVariant} className="formItem">
-            <label>Email</label>
+            <label>почта (Email)</label>
             <input
               type="email"
               name="user_email"
-              placeholder="john@gmail.com"
+              placeholder="email@gmail.com"
             />
           </motion.div>
           <motion.div variants={listVariant} className="formItem">
-            <label>Message</label>
+            <label>телефон</label>
+            <input
+              type="tel"
+              name="user_phone"
+              placeholder="+123456789"
+            />
+          </motion.div>
+          <motion.div variants={listVariant} className="formItem">
+            <label>Сообщение</label>
             <textarea
               rows={10}
               name="message"
-              placeholder="Write your message..."
+              placeholder="Напишите здесь мне ваше сообщение..."
             ></textarea>
           </motion.div>
           <motion.button variants={listVariant} className="formButton">
-            Send
+            Отправить
           </motion.button>
-          {success && <span>Your message has been sent!</span>}
-          {error && <span>Something went wrong!</span>}
+          {success && <span>Ваше сообщение отправлено!</span>}
+          {error && <span>Что-то пошло не так</span>}
         </motion.form>
       </div>
       <div className="cSection"><ContactSvg/></div>

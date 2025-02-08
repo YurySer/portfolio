@@ -6,36 +6,36 @@ const items = [
   {
     id: 1,
     img: "/p1.jpg",
-    title: "Full Stack Blog Application",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
-    link: "/",
+    title: "Один из лучших репетиторов",
+    desc: "Индивидуальный подход к каждому ученику (выбор материалов и методики преподавания) в зависимости от уровня знаний, интересов и целей, стараюсь завоевать доверие и уважение каждого ученика.",
+    link: "https://repetit.ru/repetitor.aspx?id=2475",
   },
   {
     id: 2,
     img: "/p2.jpg",
-    title: "School Management System",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
-    link: "/",
+    title: "Закончил Национальный исследовательский ядерный университет МИФИ",
+    desc: "Преподаю больше 10 лет, работая в одном из лучший ВУЗов Москвы, могу объяснить физику и математику простым и доступным языком, найти подход к каждому клиенту",
+    link: "https://home.mephi.ru/ru/users/672/public",
   },
   {
     id: 3,
     img: "/p3.jpg",
-    title: "Real-time Chat Application",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    title: "Эксперт ЕГЭ по физике",
+    desc: "Прошел повышение квалификации, получил сертификат эксперта, принимал участие в проверке ЕГЭ",
     link: "/",
   },
   {
     id: 4,
     img: "/p4.jpg",
-    title: "Social Media Project",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    title: "Физика профи.ру",
+    desc: "Подтвердил уровень знаний на профи. ру",
     link: "/",
   },
   {
     id: 5,
     img: "/p5.jpg",
-    title: "Animated Portfolio Website",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    title: "Кандидат физ.-мат. наук",
+    desc: "На глубоком уровне знаю физику и математику, могу их объяснить простым языком",
     link: "/",
   },
 ];
@@ -97,7 +97,7 @@ const ListItem = ({ item }) => {
         <motion.h1 variants={textVariants}>{item.title}</motion.h1>
         <motion.p variants={textVariants}>{item.desc}</motion.p>
         <motion.a variants={textVariants} href={item.link}>
-          <button>View Project</button>
+          <button>Посмотреть</button>
         </motion.a>
       </motion.div>
     </div>

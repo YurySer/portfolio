@@ -43,14 +43,14 @@ const services = [
   {
     id: 1,
     img: "/service1.png",
-    title: "Обяснить физику",
-    counter: 35,
+    title: "Объяснить физику",
+    counter: 69,
   },
   {
     id: 2,
     img: "/service2.png",
-    title: "Обяснить математику",
-    counter: 23,
+    title: "Объяснить математику",
+    counter: 37,
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ const Services = () => {
           animate={isInView ? "animate" : "initial"}
           className="sTitle"
         >
-          Как я могу помочь?
+          Чем я могу помочь?
         </motion.h1>
         <motion.div
           className="serviceList"
@@ -97,8 +97,8 @@ const Services = () => {
           ))}
         </motion.div>
         <div className="counterList">
-          <Counter from={0} to={104} text="Довольных учеников" />
-          <Counter from={0} to={100} text="Довольных родителей" />
+          <Counter from={0} to={106} text="Довольных учеников" />
+          <Counter from={0} to={106} text="Довольных родителей" />
         </div>
       </div>
       <div className="sSection right">

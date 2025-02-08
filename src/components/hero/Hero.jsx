@@ -165,12 +165,12 @@ const Hero = () => {
                 d="M 100,100 m -60,0 a 60,60 0 1,1 120,0 a 60,60 0 1,1 -120,0"
               />
               <text className="circleText">
-                <textPath href="#innerCirclePath">Hire Now</textPath>{" "}
+                <textPath href="#innerCirclePath">Сейчас</textPath>{" "}
                 {/*href="#innerCirclePath" привязывает этот текст к <svg  <circle <path id="innerCirclePath"*/}
               </text>
               <text className="circleText">
-                <textPath href="#innerCirclePath" startOffset="44%">
-                  Contact Me
+                <textPath href="#innerCirclePath" startOffset="30%">
+                  Свяжитесь со мной
                 </textPath>{" "}
                 {/*startOffset="44%" двигает текст*/}
               </text>
