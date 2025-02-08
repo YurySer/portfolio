@@ -36,18 +36,7 @@ section {
     scroll-snap-align: center;
 }
 
-section:nth-child(1){
-    background-color: #2f204e;
-}
-section:nth-child(2){
-    background-color: #404b9f;
-}
-section:nth-child(3){
-    background-color: #7f3850;
-}
-section:nth-child(4){
-    background-color: #474e20;
-}
+
 
 @media (min-width: 640px) {
     .container{
